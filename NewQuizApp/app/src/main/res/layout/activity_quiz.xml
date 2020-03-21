@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical" >
+
+        <!-- Question 1 -->
+
+        <TextView
+
+            style="@style/questionStyle"
+            android:text="1. Who is the king of Hell?"/>
+
+
+        <RadioGroup
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/shantanu_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Lucifer" />
+            <RadioButton
+                android:id="@+id/krishna_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Amdino" />
+            <RadioButton
+                android:id="@+id/dhritarashtra_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="John" />
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Jesus" />
+
+        </RadioGroup>
+
+        <!-- Question 2 -->
+
+        <TextView
+
+            style="@style/questionStyle"
+            android:text="2. What is the name Lucifer Refers to?"
+            />
+
+        <RadioGroup
+            android:id="@+id/num_two_radio_group"
+            style="@style/radioStyle">
+            />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Rocky" />
+            <RadioButton
+                android:id="@+id/dushala_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Devil" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Angels" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Unicorn" />
+
+        </RadioGroup>
+
+        <!-- Question 3 -->
+
+        <TextView
+
+            style="@style/questionStyle"
+            android:text="3. How many days a devil can stay on the human body?"
+            />
+
+
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="Please enter your answer"
+            android:inputType="text"/>
+
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. What are the names of the devil?"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <CheckBox
+            android:id="@+id/ganga_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lucifer"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/kunti_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Flash"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/radha_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mowhak"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:id="@+id/satyavati_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satan"
+            android:textSize="16sp"
+            android:layout_marginBottom="16sp"/>
+
+        <TextView
+
+            style="@style/questionStyle"
+            android:text="5. Who is the father of Devil?"
+            />
+
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/num_five_radio_group"
+
+            style="@style/radioStyle">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Many" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Lost" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Mike" />
+            <RadioButton
+                android:id="@+id/ved_vyasa_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Cephalus" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
